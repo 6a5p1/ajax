@@ -44,7 +44,7 @@ The ajax is fully customizable: you can define the default headers, type, method
 ajax.type = 'json';
 ajax.method = 'post';
 ```
-If you don't link the name of the callback functions or the name of the promises, then you can change them:
+If you don't like the name of the callback functions or the name of the promises, then you can change them:
 ```js
 ajax.success = 'successCallback';
 ajax.error = 'errorCallback';
